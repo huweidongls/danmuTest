@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "×¢ÊÍ"
+git remote add origin https://github
+git push -u origin master
