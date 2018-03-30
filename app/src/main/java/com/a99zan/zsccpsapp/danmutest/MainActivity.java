@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private String mBeginTime;
 
     private TabLayout mTableLayout;
-    private List<Fragment> mFragmentList =  new ArrayList<Fragment>();
+    private List<Fragment> mFragmentList =  new ArrayList<>();
 
     //全屏下播放器对象
     public HVideoPlayer mFullScreenPlayer;
@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //初始化控件
     private void initView() {
         mVideoPlayerStandard = (HVideoPlayer) findViewById(R.id.custom_videoplayer_standard);
         mMsgEditText = (EditText) findViewById(R.id.message);
